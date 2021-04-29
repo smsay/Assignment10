@@ -7,7 +7,7 @@ public class Quest22_Html {
 		
                 String html="<!DOCTYPE html><html><head><title>Java</title></head><body><p id=\"myid\"></p></body></html>";
 
-		if(!html.contains("html")) {
+		if(!html.contains("<html>")) {
 			System.out.println("invalid input!");
 		}else {
 		int start= html.indexOf('"');
